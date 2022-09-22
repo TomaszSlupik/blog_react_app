@@ -1,0 +1,36 @@
+.boxPost {
+	position: relative;
+	width: 100%;
+}
+
+.boxPostWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxs {
+	width: 300px;
+	height: 180px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px salid black;
+	border: 1px solid black;
+	padding: 0.2em 0.4em;
+	margin-right: 1em;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+@media (max-width: 568px) {
+	.boxPostWrapper {
+		flex-direction: column;
+	}
+
+	.boxs {
+		margin-right: 0em;
+		margin-top: 1em;
+	}
+}
