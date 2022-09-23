@@ -11,10 +11,11 @@
 }
 
 .boxs {
+	position: relative;
 	width: 300px;
-	height: 180px;
+	height: 250px;
 	border-radius: 8px;
-	box-shadow: 5px 5px 10px salid black;
+	box-shadow: 5px 5px 10px black;
 	border: 1px solid black;
 	padding: 0.2em 0.4em;
 	margin-right: 1em;
@@ -22,6 +23,28 @@
 
 h2 {
 	font-weight: bold;
+}
+
+.ingredients {
+	font-size: 1rem;
+	margin-bottom: 0.5em;
+}
+
+.underlineingredients {
+	height: 1px;
+	width: 100px;
+	background-color: black;
+}
+
+button {
+	position: absolute;
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-top: 0.5em;
+	bottom: 4%;
+	right: 4%;
 }
 
 @media (max-width: 568px) {

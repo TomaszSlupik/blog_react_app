@@ -1,0 +1,23 @@
+.wrappernav {
+	position: relative;
+	width: 100%;
+}
+
+.displaynav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.textnav {
+	font-size: 3rem;
+	margin-bottom: 0.2em;
+}
+
+.underline {
+	height: 4px;
+	width: 200px;
+	background-color: black;
+    margin-bottom: 0.6em;
+}
