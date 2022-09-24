@@ -2,6 +2,7 @@ import React from "react";
 import "../Post/styled/Post.css";
 import { useState } from "react";
 
+
 const Post = (props) => {
 	const [long, setlong] = useState(false);
 

@@ -14,7 +14,7 @@ const Navigation = () => {
 		<div>
 			<div className="wrappernav">
 				<div className="displaynav">
-					<TextNavigation textnav="Dania główne" />
+					<TextNavigation  textnav="Dania główne"/>
                     <div className="underline"></div>
 				</div>
 			</div>
@@ -22,4 +22,7 @@ const Navigation = () => {
 	);
 };
 
+
+
 export default Navigation;
+
